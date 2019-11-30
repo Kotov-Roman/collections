@@ -1,11 +1,19 @@
 package hashtable;
 
-class HashNode <E>{
+class HashNode<K, E> {
+
+    K key;
 
     E value;
 
-    HashNode<E> next;
+    HashNode<K, E> next;
 
     int hash;
+
+    HashNode(K key, E value, int hash) {
+        this.key = key;
+        this.value = value;
+        this.hash = hash;
+    }
 
 }

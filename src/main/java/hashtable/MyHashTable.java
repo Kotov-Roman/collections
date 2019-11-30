@@ -1,19 +1,12 @@
 package hashtable;
 
-import com.sun.deploy.util.StringUtils;
+public interface MyHashTable <K, V> {
 
-import java.util.HashMap;
-import java.util.Map;
+    void put (K key, V value);
 
-public interface MyHashTable <E> {
+    void remove (K key);
 
-    HashMap
-
-    void add (String key, E value);
-
-    void remove (String key);
-
-    E get(String key);
+    V get(K key);
 
     int size();
 }
