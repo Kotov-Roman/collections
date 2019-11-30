@@ -1,6 +1,6 @@
 package list.linkedList;
 
-public class MyNode<E> {
+class MyNode<E> {
 
   MyNode<E> previous;
   MyNode<E> next;
