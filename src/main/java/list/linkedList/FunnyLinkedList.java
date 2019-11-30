@@ -16,4 +16,6 @@ public interface FunnyLinkedList<E> {
 
   E get(int index);
 
+  int size();
+
 }

@@ -2,8 +2,8 @@ package list.linkedList;
 
 public class MyNode<E> {
 
-  MyNode previous;
-  MyNode next;
+  MyNode<E> previous;
+  MyNode<E> next;
   E value;
   String name;
 
